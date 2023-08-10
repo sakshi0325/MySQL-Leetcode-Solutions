@@ -1,0 +1,2 @@
+#Leetcode 577
+select name, bonus from Employee left outer join Bonus on (Employee.empId = Bonus.empId) where bonus<1000 or bonus is NULL;
